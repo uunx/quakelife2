@@ -2421,7 +2421,9 @@ bool CGameMovement::CheckJumpButton( void )
 
 	float tracehitdistance;
 	tracehitdistance = ((vecAbsStart.x - tr.endpos.x) * (vecAbsStart.x - tr.endpos.x)) + ((vecAbsStart.y - tr.endpos.y) * (vecAbsStart.y - tr.endpos.y));
+	tracehitdistance = tracehitdistance + ((vecAbsStart.z - tr.endpos.z) * (vecAbsStart.z - tr.endpos.z));
 	tracehitdistance = sqrt(tracehitdistance);
+	//is this fixed?^
 	Vector wallnormal;
 	wallnormal = tr.plane.normal; //wtfux, maybe can just use tr.plane.dist instead of all this shite?
 
@@ -2447,7 +2449,7 @@ bool CGameMovement::CheckJumpButton( void )
 
 			wjpunch.x = 0.0f;
 			wjpunch.y = 0.0f;
-			wjpunch.z = 10.0f;
+			wjpunch.z = 3.0f;
 	
 			player->ViewPunch( wjpunch ); 
 		}
