@@ -1,0 +1,5 @@
+*.vcproj.*.user
+*.ncb
+*.aps
+*.sdf
+*.suo
