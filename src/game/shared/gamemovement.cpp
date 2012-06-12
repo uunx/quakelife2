@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright Â© 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -2406,7 +2406,8 @@ bool CGameMovement::CheckJumpButton( void )
 	if ( mv->m_nOldButtons & IN_JUMP )
 		return false;
 
-
+	//trace_t tr;
+	//TracePlayerBBox( vecStart, vecEnd, PlayerSolidMask(), COLLISION_GROUP_PLAYER_MOVEMENT, tr );
 
 
 	//uunx: do trace for walljump
@@ -2415,12 +2416,15 @@ bool CGameMovement::CheckJumpButton( void )
 	AngleVectors( player->EyeAngles(), &vecDir ); 
 	vecAbsStart = player->EyePosition();
 	vecAbsEnd = vecAbsStart + (vecDir * MAX_TRACE_LENGTH);
-	UTIL_TraceLine( vecAbsStart, vecAbsEnd, MASK_ALL, player, COLLISION_GROUP_NONE, &tr );
+	//UTIL_TraceLine( vecAbsStart, vecAbsEnd, MASK_ALL, player, COLLISION_GROUP_NONE, &tr );
+	CGameMovement::TracePlayerBBox( vecAbsStart, vecAbsEnd, PlayerSolidMask(), COLLISION_GROUP_NONE, tr );
+
 	float tracehitdistance;
 	tracehitdistance = ((vecAbsStart.x - tr.endpos.x) * (vecAbsStart.x - tr.endpos.x)) + ((vecAbsStart.y - tr.endpos.y) * (vecAbsStart.y - tr.endpos.y));
 	tracehitdistance = sqrt(tracehitdistance);
 	Vector wallnormal;
 	wallnormal = tr.plane.normal; //wtfux, maybe can just use tr.plane.dist instead of all this shite?
+
 
 	if ( tr.fraction < 1.0f )
 	{
@@ -2434,8 +2438,18 @@ bool CGameMovement::CheckJumpButton( void )
 		if (tracehitdistance < 30)		//we dont have a ground ent and we're close to a wall
 		{
 			mv->m_vecVelocity += 200 * wallnormal;	//either needs a jump delay time, or autobhopturning off 
-			mv->m_vecVelocity[2] = 100;				//adding the 'up' velocity here then returning so it doesnt do both
+			mv->m_vecVelocity[2] = 200;				//adding the 'up' velocity here, settomg walljumped to true so later on it doesnt get added again
 			walljumped = true;
+
+			//add a roll to make it look like we've kicked the wall
+			//pls fix me markzz xx get position of the wall relative to the player and 'lean' away from it, only affecting roll ~
+			QAngle wjpunch;
+
+			wjpunch.x = 0.0f;
+			wjpunch.y = 0.0f;
+			wjpunch.z = 10.0f;
+	
+			player->ViewPunch( wjpunch ); 
 		}
 		else
 		{
