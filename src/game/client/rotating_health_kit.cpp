@@ -32,7 +32,7 @@ private:
 	QAngle		ClientRotAng; // m_angRotation is stomped sometimes (CItem returning the ent to spawn position?)
 };
  
-LINK_ENTITY_TO_CLASS( item_rotating, C_RotatingPickup );
+LINK_ENTITY_TO_CLASS( item_rotatinghealth, C_RotatingPickup );
  
 IMPLEMENT_CLIENTCLASS_DT( C_RotatingPickup, DT_RotatingPickup,CRotatingPickup )
 	RecvPropBool( RECVINFO(m_bRespawning) ),

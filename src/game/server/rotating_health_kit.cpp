@@ -40,9 +40,9 @@ private:
 	Vector MdlTop;
 };
  
-LINK_ENTITY_TO_CLASS( item_rotating, CRotatingPickup );
+LINK_ENTITY_TO_CLASS( item_rotatinghealth, CRotatingPickup );
  
-PRECACHE_REGISTER( item_rotating );
+PRECACHE_REGISTER( item_rotatinghealth );
  
 BEGIN_DATADESC( CRotatingPickup )
 	DEFINE_KEYFIELD( m_iHealthToGive, FIELD_INTEGER, "givehealth"),
