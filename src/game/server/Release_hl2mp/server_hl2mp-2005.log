@@ -1,15 +1,11 @@
-﻿Build started 6/12/2012 11:46:08 PM.
+﻿Build started 6/13/2012 12:20:23 AM.
      1>Project "C:\testmod1\src\game\server\server_hl2mp-2005.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating ".\Release_hl2mp\Server HL2MP.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I.\ /I..\..\game\shared /I..\..\utils\common /I..\..\game\shared\hl2 /I.\hl2 /I.\hl2mp /I..\..\game\shared\hl2mp /I..\..\game\shared\Multiplayer /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D GAME_DLL /D VECTOR /D PROTECTED_THINGS_ENABLE /D fopen=dont_use_fopen /D sprintf=use_Q_snprintf_instead_of_sprintf /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D HL2MP /D MP_SDK /D HL2_DLL /D VERSION_SAFE_STEAM_API_INTERFACES /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"cbase.h" /Fp".\Release_hl2mp\Server HL2MP.pch" /Fo".\Release_hl2mp\\" /Fd".\Release_hl2mp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hl2\item_healthkit.cpp hl2mp\hl2mp_player.cpp rotating_health_kit.cpp /MP 
-         item_healthkit.cpp
-         hl2mp_player.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I.\ /I..\..\game\shared /I..\..\utils\common /I..\..\game\shared\hl2 /I.\hl2 /I.\hl2mp /I..\..\game\shared\hl2mp /I..\..\game\shared\Multiplayer /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D GAME_DLL /D VECTOR /D PROTECTED_THINGS_ENABLE /D fopen=dont_use_fopen /D sprintf=use_Q_snprintf_instead_of_sprintf /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D HL2MP /D MP_SDK /D HL2_DLL /D VERSION_SAFE_STEAM_API_INTERFACES /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"cbase.h" /Fp".\Release_hl2mp\Server HL2MP.pch" /Fo".\Release_hl2mp\\" /Fd".\Release_hl2mp\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt rotating_health_kit.cpp /MP 
          rotating_health_kit.cpp
-     1>hl2mp\hl2mp_player.cpp(7): warning C4627: '#include "weapon_hl2mpbasehlmpcombatweapon.h"': skipped when looking for precompiled header use
-                 Add directive to 'cbase.h' or rebuild precompiled header
          All outputs are up-to-date.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\testmod1\src\game\server\.\Release_hl2mp\Server HL2MP.dll) does not match the Linker's OutputFile property value (C:\testmod1\src\game\server\Release_hl2mp\Server.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Server HL2MP) does not match the Linker's OutputFile property value (Server). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
@@ -600,4 +596,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.75
+Time Elapsed 00:00:06.04

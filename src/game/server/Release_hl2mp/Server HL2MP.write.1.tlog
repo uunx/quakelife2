@@ -128,3 +128,10 @@ C:\testmod1\src\game\server\Release_hl2mp\Server HL2MP.exp
 C:\testmod1\src\game\server\Release_hl2mp\Server HL2MP.exp
 ^Server HL2MP
 c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\bin\server.dll
+^C:\testmod1\src\game\server\server_hl2mp-2005.vcxproj
+C:\testmod1\src\game\server\Release_hl2mp\Server HL2MP.lib
+C:\testmod1\src\game\server\Release_hl2mp\Server HL2MP.lib
+C:\testmod1\src\game\server\Release_hl2mp\Server HL2MP.exp
+C:\testmod1\src\game\server\Release_hl2mp\Server HL2MP.exp
+^Server HL2MP
+c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\bin\server.dll
