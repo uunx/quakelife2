@@ -1,0 +1,10 @@
+@PointClass base(Item) studio("models/items/healthkit.mdl") = item_rotating: "Rotating health kit"
+[
+	givehealth(integer) : "Health to give" : 5
+	respawntime(float) : "Respawn time" : 20
+ 
+	spawnflags(Flags) =
+	[
+		2 : "Suppress location decal" : 0
+	]
+]

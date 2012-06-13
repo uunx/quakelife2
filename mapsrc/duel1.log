@@ -1,0 +1,1270 @@
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+Brush 491: FloatPlane: bad normal
+Side 3
+Texture: METAL/CITADEL_METALWALL076A
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+Error opening c:\testmod1\mapsrc\duel1.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+Error opening c:\testmod1\mapsrc\duel1.bsp
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+Brush 491: bounds out of range
+Brush 498: bounds out of range
+Brush 520: bounds out of range
+Brush 521: bounds out of range
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\testmod1\mapsrc\duel1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8353 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 23
+Reduced 6 texdatas to 5 (163 bytes to 118)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+  27 portalclusters
+  45 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 709
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 27
+visdatasize:436  compressed from 432
+writing c:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+176 faces
+89852 square feet [12938749.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+176 patches before subdivision
+9096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1262955, max 365
+transfer lists:   9.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0057 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 26/8192          312/98304    ( 0.3%) 
+brushsides             168/65536        1344/524288   ( 0.3%) 
+planes                 162/65536        3240/1310720  ( 0.2%) 
+vertexes               247/65536        2964/786432   ( 0.4%) 
+nodes                   95/65536        3040/2097152  ( 0.1%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  176/65536        9856/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  97/65536        3104/2097152  ( 0.1%) 
+leaffaces              182/65536         364/131072   ( 0.3%) 
+leafbrushes             62/65536         124/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              932/512000       3728/2048000  ( 0.2%) 
+edges                  522/256000       2088/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             11/32768         110/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           156/65536         312/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      791008/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         436/16777216 ( 0.0%) 
+entdata               [variable]         329/393216   ( 0.1%) 
+LDR ambient table       97/65536         388/262144   ( 0.1%) 
+HDR ambient table       97/65536         388/262144   ( 0.1%) 
+LDR leaf ambient        27/65536         756/1835008  ( 0.0%) 
+HDR leaf ambient        97/65536        2716/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211534/0        ( 0.0%) 
+physics               [variable]        8353/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 428
+Writing c:\testmod1\mapsrc\duel1.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+Brush 491: bounds out of range
+Brush 498: bounds out of range
+Brush 520: bounds out of range
+Brush 521: bounds out of range
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\testmod1\mapsrc\duel1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8353 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 23
+Reduced 6 texdatas to 5 (163 bytes to 118)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+  27 portalclusters
+  45 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 709
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 27
+visdatasize:436  compressed from 432
+writing c:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+176 faces
+89852 square feet [12938749.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+176 patches before subdivision
+9096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1262955, max 365
+transfer lists:   9.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0059 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 26/8192          312/98304    ( 0.3%) 
+brushsides             168/65536        1344/524288   ( 0.3%) 
+planes                 162/65536        3240/1310720  ( 0.2%) 
+vertexes               247/65536        2964/786432   ( 0.4%) 
+nodes                   95/65536        3040/2097152  ( 0.1%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  176/65536        9856/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  97/65536        3104/2097152  ( 0.1%) 
+leaffaces              182/65536         364/131072   ( 0.3%) 
+leafbrushes             62/65536         124/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              932/512000       3728/2048000  ( 0.2%) 
+edges                  522/256000       2088/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             11/32768         110/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           156/65536         312/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      791008/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         436/16777216 ( 0.0%) 
+entdata               [variable]         329/393216   ( 0.1%) 
+LDR ambient table       97/65536         388/262144   ( 0.1%) 
+HDR ambient table       97/65536         388/262144   ( 0.1%) 
+LDR leaf ambient        27/65536         756/1835008  ( 0.0%) 
+HDR leaf ambient        97/65536        2716/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211534/0        ( 0.0%) 
+physics               [variable]        8353/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 428
+Writing c:\testmod1\mapsrc\duel1.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+Brush 491: bounds out of range
+Brush 498: bounds out of range
+Brush 520: bounds out of range
+Brush 521: bounds out of range
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\testmod1\mapsrc\duel1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8353 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 23
+Reduced 6 texdatas to 5 (163 bytes to 118)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+  27 portalclusters
+  45 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 709
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 27
+visdatasize:436  compressed from 432
+writing c:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+176 faces
+89852 square feet [12938749.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+176 patches before subdivision
+9096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1262955, max 365
+transfer lists:   9.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 26/8192          312/98304    ( 0.3%) 
+brushsides             168/65536        1344/524288   ( 0.3%) 
+planes                 162/65536        3240/1310720  ( 0.2%) 
+vertexes               247/65536        2964/786432   ( 0.4%) 
+nodes                   95/65536        3040/2097152  ( 0.1%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  176/65536        9856/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  97/65536        3104/2097152  ( 0.1%) 
+leaffaces              182/65536         364/131072   ( 0.3%) 
+leafbrushes             62/65536         124/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              932/512000       3728/2048000  ( 0.2%) 
+edges                  522/256000       2088/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             11/32768         110/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           156/65536         312/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      791008/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         436/16777216 ( 0.0%) 
+entdata               [variable]         329/393216   ( 0.1%) 
+LDR ambient table       97/65536         388/262144   ( 0.1%) 
+HDR ambient table       97/65536         388/262144   ( 0.1%) 
+LDR leaf ambient        27/65536         756/1835008  ( 0.0%) 
+HDR leaf ambient        97/65536        2716/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211534/0        ( 0.0%) 
+physics               [variable]        8353/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 428
+Writing c:\testmod1\mapsrc\duel1.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\testmod1\mapsrc\duel1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8353 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 59 texinfos to 23
+Reduced 5 texdatas to 5 (118 bytes to 118)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+  27 portalclusters
+  45 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 709
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 27
+visdatasize:436  compressed from 432
+writing c:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+176 faces
+89852 square feet [12938749.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+176 patches before subdivision
+9096 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1262955, max 365
+transfer lists:   9.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0083 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 22/8192          264/98304    ( 0.3%) 
+brushsides             132/65536        1056/524288   ( 0.2%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               247/65536        2964/786432   ( 0.4%) 
+nodes                   89/65536        2848/2097152  ( 0.1%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  176/65536        9856/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  91/65536        2912/2097152  ( 0.1%) 
+leaffaces              182/65536         364/131072   ( 0.3%) 
+leafbrushes             62/65536         124/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              932/512000       3728/2048000  ( 0.2%) 
+edges                  522/256000       2088/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             11/32768         110/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           156/65536         312/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      791008/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         436/16777216 ( 0.0%) 
+entdata               [variable]         329/393216   ( 0.1%) 
+LDR ambient table       91/65536         364/262144   ( 0.1%) 
+HDR ambient table       91/65536         364/262144   ( 0.1%) 
+LDR leaf ambient        27/65536         756/1835008  ( 0.0%) 
+HDR leaf ambient        91/65536        2548/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105651/0        ( 0.0%) 
+physics               [variable]        8353/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 428
+Writing c:\testmod1\mapsrc\duel1.bsp
+2 seconds elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (214.00 19.00 96.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1136.0 0.0 290.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1256.0 0.0 290.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1656.0 0.0 290.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 512.0 290.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1536.0 1024.0 290.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2048.0 512.0 290.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -1536.0 74.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1024.0 -1556.5 296.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9153 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 62 texinfos to 32
+Reduced 6 texdatas to 6 (138 bytes to 138)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+LoadPortals: couldn't read c:\testmod1\mapsrc\duel1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+No vis information, direct lighting only.
+140 faces
+47376 square feet [6822283.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0027 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 24/8192          288/98304    ( 0.3%) 
+brushsides             144/65536        1152/524288   ( 0.2%) 
+planes                  94/65536        1880/1310720  ( 0.1%) 
+vertexes               314/65536        3768/786432   ( 0.5%) 
+nodes                  177/65536        5664/2097152  ( 0.3%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  140/65536        7840/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               53/65536        2968/3670016  ( 0.1%) 
+leaves                 179/65536        5728/2097152  ( 0.3%) 
+leaffaces              183/65536         366/131072   ( 0.3%) 
+leafbrushes             62/65536         124/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              871/512000       3484/2048000  ( 0.2%) 
+edges                  522/256000       2088/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           315/65536         630/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      389216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         327/393216   ( 0.1%) 
+LDR ambient table      179/65536         716/262144   ( 0.3%) 
+HDR ambient table      179/65536         716/262144   ( 0.3%) 
+LDR leaf ambient       118/65536        3304/1835008  ( 0.2%) 
+HDR leaf ambient       179/65536        5012/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105651/0        ( 0.0%) 
+physics               [variable]        9153/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 379
+Writing c:\testmod1\mapsrc\duel1.bsp
+1 second elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (246.00 52.00 96.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9281 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 65 texinfos to 32
+Reduced 6 texdatas to 6 (138 bytes to 138)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+LoadPortals: couldn't read c:\testmod1\mapsrc\duel1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+No vis information, direct lighting only.
+137 faces
+32450 square feet [4672881.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 24/8192          288/98304    ( 0.3%) 
+brushsides             144/65536        1152/524288   ( 0.2%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes               312/65536        3744/786432   ( 0.5%) 
+nodes                  154/65536        4928/2097152  ( 0.2%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  137/65536        7672/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               52/65536        2912/3670016  ( 0.1%) 
+leaves                 156/65536        4992/2097152  ( 0.2%) 
+leaffaces              187/65536         374/131072   ( 0.3%) 
+leafbrushes             57/65536         114/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              872/512000       3488/2048000  ( 0.2%) 
+edges                  537/256000       2148/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             24/32768         240/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           336/65536         672/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      271684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         326/393216   ( 0.1%) 
+LDR ambient table      156/65536         624/262144   ( 0.2%) 
+HDR ambient table      156/65536         624/262144   ( 0.2%) 
+LDR leaf ambient       101/65536        2828/1835008  ( 0.2%) 
+HDR leaf ambient       156/65536        4368/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105651/0        ( 0.0%) 
+physics               [variable]        9281/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 390
+Writing c:\testmod1\mapsrc\duel1.bsp
+1 second elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (246.00 52.00 96.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9281 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 65 texinfos to 32
+Reduced 6 texdatas to 6 (138 bytes to 138)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+LoadPortals: couldn't read c:\testmod1\mapsrc\duel1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+No vis information, direct lighting only.
+148 faces
+32451 square feet [4672947.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 24/8192          288/98304    ( 0.3%) 
+brushsides             144/65536        1152/524288   ( 0.2%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes               328/65536        3936/786432   ( 0.5%) 
+nodes                  164/65536        5248/2097152  ( 0.3%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  148/65536        8288/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               52/65536        2912/3670016  ( 0.1%) 
+leaves                 166/65536        5312/2097152  ( 0.3%) 
+leaffaces              193/65536         386/131072   ( 0.3%) 
+leafbrushes             65/65536         130/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              923/512000       3692/2048000  ( 0.2%) 
+edges                  556/256000       2224/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             29/32768         290/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           420/65536         840/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      281168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         326/393216   ( 0.1%) 
+LDR ambient table      166/65536         664/262144   ( 0.3%) 
+HDR ambient table      166/65536         664/262144   ( 0.3%) 
+LDR leaf ambient       105/65536        2940/1835008  ( 0.2%) 
+HDR leaf ambient       166/65536        4648/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105651/0        ( 0.0%) 
+physics               [variable]        9281/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 419
+Writing c:\testmod1\mapsrc\duel1.bsp
+1 second elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (246.00 52.00 96.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9249 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 65 texinfos to 32
+Reduced 6 texdatas to 6 (138 bytes to 138)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+LoadPortals: couldn't read c:\testmod1\mapsrc\duel1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+No vis information, direct lighting only.
+144 faces
+32390 square feet [4664169.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 24/8192          288/98304    ( 0.3%) 
+brushsides             144/65536        1152/524288   ( 0.2%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes               323/65536        3876/786432   ( 0.5%) 
+nodes                  162/65536        5184/2097152  ( 0.2%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               52/65536        2912/3670016  ( 0.1%) 
+leaves                 164/65536        5248/2097152  ( 0.3%) 
+leaffaces              189/65536         378/131072   ( 0.3%) 
+leafbrushes             64/65536         128/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              904/512000       3616/2048000  ( 0.2%) 
+edges                  542/256000       2168/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             29/32768         290/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           429/65536         858/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      280652/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         326/393216   ( 0.1%) 
+LDR ambient table      164/65536         656/262144   ( 0.3%) 
+HDR ambient table      164/65536         656/262144   ( 0.3%) 
+LDR leaf ambient       104/65536        2912/1835008  ( 0.2%) 
+HDR leaf ambient       164/65536        4592/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105651/0        ( 0.0%) 
+physics               [variable]        9249/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 408
+Writing c:\testmod1\mapsrc\duel1.bsp
+1 second elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (246.00 52.00 96.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9249 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 65 texinfos to 31
+Reduced 6 texdatas to 6 (138 bytes to 138)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+LoadPortals: couldn't read c:\testmod1\mapsrc\duel1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+No vis information, direct lighting only.
+142 faces
+32323 square feet [4654639.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 24/8192          288/98304    ( 0.3%) 
+brushsides             144/65536        1152/524288   ( 0.2%) 
+planes                  98/65536        1960/1310720  ( 0.1%) 
+vertexes               319/65536        3828/786432   ( 0.5%) 
+nodes                  160/65536        5120/2097152  ( 0.2%) 
+texinfos                31/12288        2232/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  142/65536        7952/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               51/65536        2856/3670016  ( 0.1%) 
+leaves                 162/65536        5184/2097152  ( 0.2%) 
+leaffaces              187/65536         374/131072   ( 0.3%) 
+leafbrushes             64/65536         128/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              895/512000       3580/2048000  ( 0.2%) 
+edges                  532/256000       2128/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           459/65536         918/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      280412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         327/393216   ( 0.1%) 
+LDR ambient table      162/65536         648/262144   ( 0.2%) 
+HDR ambient table      162/65536         648/262144   ( 0.2%) 
+LDR leaf ambient       102/65536        2856/1835008  ( 0.2%) 
+HDR leaf ambient       162/65536        4536/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105651/0        ( 0.0%) 
+physics               [variable]        9249/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 407
+Writing c:\testmod1\mapsrc\duel1.bsp
+1 second elapsed
+
+
+
+materialPath: c:\program files (x86)\steam\steamapps\SourceMods\quake-life2\materials
+Loading C:\testmod1\mapsrc\duel1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\testmod1\mapsrc\duel1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (9233 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 65 texinfos to 29
+Reduced 6 texdatas to 6 (138 bytes to 138)
+Writing C:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\testmod1\mapsrc\duel1.bsp
+reading c:\testmod1\mapsrc\duel1.prt
+  23 portalclusters
+  43 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 519
+Average clusters visible: 22
+Building PAS...
+Average clusters audible: 23
+visdatasize:326  compressed from 368
+writing c:\testmod1\mapsrc\duel1.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\testmod1\mapsrc\duel1.bsp
+114 faces
+32238 square feet [4642328.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+114 patches before subdivision
+3828 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 430380, max 279
+transfer lists:   3.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 24/8192          288/98304    ( 0.3%) 
+brushsides             144/65536        1152/524288   ( 0.2%) 
+planes                  96/65536        1920/1310720  ( 0.1%) 
+vertexes               200/65536        2400/786432   ( 0.3%) 
+nodes                   68/65536        2176/2097152  ( 0.1%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  114/65536        6384/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+leaves                  70/65536        2240/2097152  ( 0.1%) 
+leaffaces              144/65536         288/131072   ( 0.2%) 
+leafbrushes             54/65536         108/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              744/512000       2976/2048000  ( 0.1%) 
+edges                  432/256000       1728/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             17/32768         170/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           252/65536         504/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      271492/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         326/16777216 ( 0.0%) 
+entdata               [variable]         327/393216   ( 0.1%) 
+LDR ambient table       70/65536         280/262144   ( 0.1%) 
+HDR ambient table       70/65536         280/262144   ( 0.1%) 
+LDR leaf ambient        23/65536         644/1835008  ( 0.0%) 
+HDR leaf ambient        70/65536        1960/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105651/0        ( 0.0%) 
+physics               [variable]        9233/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 324
+Writing c:\testmod1\mapsrc\duel1.bsp
+2 seconds elapsed
