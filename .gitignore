@@ -61,4 +61,6 @@ packages/
 *.dbmdl
 
 #source sdk crap
+mapsrc/
 materialsystem/
+*.bat
