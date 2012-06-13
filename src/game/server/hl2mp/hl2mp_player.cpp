@@ -239,12 +239,20 @@ void CHL2MP_Player::GiveDefaultItems( void )
 {
 	EquipSuit();
 
-	CBasePlayer::GiveAmmo( 255,	"Pistol");
-	CBasePlayer::GiveAmmo( 45,	"SMG1");
-	CBasePlayer::GiveAmmo( 1,	"grenade" );
-	CBasePlayer::GiveAmmo( 6,	"Buckshot");
-	CBasePlayer::GiveAmmo( 6,	"357" );
+	//Zeus: getting rid of the default weapons of hl2mp !
+	
+	//Zeus: this is where we will start the player off with their default ammo. i.e Nails for the nailgun etc
 
+	//CBasePlayer::GiveAmmo( 255,	"Pistol");
+	//CBasePlayer::GiveAmmo( 45,	"SMG1");
+	//CBasePlayer::GiveAmmo( 1,	"grenade" );
+	//CBasePlayer::GiveAmmo( 6,	"Buckshot");
+	//CBasePlayer::GiveAmmo( 6,	"357" );
+
+
+	//Zeus: commented out this HL2DM code but might need it for later when we have Team DM?
+
+	/*
 	if ( GetPlayerModelType() == PLAYER_SOUNDS_METROPOLICE || GetPlayerModelType() == PLAYER_SOUNDS_COMBINESOLDIER )
 	{
 		GiveNamedItem( "weapon_stunstick" );
@@ -253,16 +261,21 @@ void CHL2MP_Player::GiveDefaultItems( void )
 	{
 		GiveNamedItem( "weapon_crowbar" );
 	}
+	*/
 	
+	//Zeus: this is where we start the player off with their default weapon.  i.e the nailgun
+	
+	//Zeus: leaving the default hl2 pistol in as a placeholder for now
 	GiveNamedItem( "weapon_pistol" );
-	GiveNamedItem( "weapon_smg1" );
-	GiveNamedItem( "weapon_frag" );
-	GiveNamedItem( "weapon_physcannon" );
+	//GiveNamedItem( "weapon_smg1" );
+	//GiveNamedItem( "weapon_frag" );
+	//GiveNamedItem( "weapon_physcannon" );
 
 	const char *szDefaultWeaponName = engine->GetClientConVarValue( engine->IndexOfEdict( edict() ), "cl_defaultweapon" );
 
 	CBaseCombatWeapon *pDefaultWeapon = Weapon_OwnsThisType( szDefaultWeaponName );
 
+	//Zeus: might have to comment this out later
 	if ( pDefaultWeapon )
 	{
 		Weapon_Switch( pDefaultWeapon );
