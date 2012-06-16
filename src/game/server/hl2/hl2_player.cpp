@@ -76,14 +76,20 @@ extern int gEvilImpulse101;
 ConVar sv_autojump( "sv_autojump", "0" );
 
 ConVar hl2_walkspeed( "hl2_walkspeed", "150" );
-ConVar hl2_normspeed( "hl2_normspeed", "190" );
+
+//zeus: changed this from 190 to 220 -  6/15/12
+ConVar hl2_normspeed( "hl2_normspeed", "220" );
+
 ConVar hl2_sprintspeed( "hl2_sprintspeed", "320" );
 
 ConVar hl2_darkness_flashlight_factor ( "hl2_darkness_flashlight_factor", "1" );
 
 #ifdef HL2MP
 	#define	HL2_WALK_SPEED 150
-	#define	HL2_NORM_SPEED 190
+
+	//zeus: changed this from 190 to 220 - 6/15/12
+	#define	HL2_NORM_SPEED 220
+
 	#define	HL2_SPRINT_SPEED 320
 #else
 	#define	HL2_WALK_SPEED hl2_walkspeed.GetFloat()
@@ -382,7 +388,8 @@ CHL2_Player::CHL2_Player()
 {
 	m_nNumMissPositions	= 0;
 	m_pPlayerAISquad = 0;
-	m_bSprintEnabled = true;
+	//zeus: turning off sprint
+	//m_bSprintEnabled = true;
 
 	m_flArmorReductionTime = 0.0f;
 	m_iArmorReductionFrom = 0;
@@ -418,7 +425,8 @@ void CHL2_Player::Precache( void )
 	BaseClass::Precache();
 
 	PrecacheScriptSound( "HL2Player.SprintNoPower" );
-	PrecacheScriptSound( "HL2Player.SprintStart" );
+	//zeus: removing
+	//PrecacheScriptSound( "HL2Player.SprintStart" );
 	PrecacheScriptSound( "HL2Player.UseDeny" );
 	PrecacheScriptSound( "HL2Player.FlashLightOn" );
 	PrecacheScriptSound( "HL2Player.FlashLightOff" );
@@ -1204,7 +1212,8 @@ void CHL2_Player::StartSprinting( void )
 
 	CPASAttenuationFilter filter( this );
 	filter.UsePredictionRules();
-	EmitSound( filter, entindex(), "HL2Player.SprintStart" );
+	//zeus: turning sound off for sprint
+	//EmitSound( filter, entindex(), "HL2Player.SprintStart" );
 
 	SetMaxSpeed( HL2_SPRINT_SPEED );
 	m_fIsSprinting = true;

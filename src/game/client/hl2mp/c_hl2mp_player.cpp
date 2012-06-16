@@ -65,7 +65,10 @@ BEGIN_PREDICTION_DATA( C_HL2MP_Player )
 END_PREDICTION_DATA()
 
 #define	HL2_WALK_SPEED 150
-#define	HL2_NORM_SPEED 190
+
+//zeus: changed from 190 to 220 - 6/15/12
+#define	HL2_NORM_SPEED 220
+
 #define	HL2_SPRINT_SPEED 320
 
 static ConVar cl_playermodel( "cl_playermodel", "none", FCVAR_USERINFO | FCVAR_ARCHIVE | FCVAR_SERVER_CAN_EXECUTE, "Default Player Model");
@@ -634,7 +637,8 @@ void C_HL2MP_Player::StartSprinting( void )
 
 	CPASAttenuationFilter filter( this );
 	filter.UsePredictionRules();
-	EmitSound( filter, entindex(), "HL2Player.SprintStart" );
+	//zeus: removing sound for sprint
+	//EmitSound( filter, entindex(), "HL2Player.SprintStart" );
 
 	SetMaxSpeed( HL2_SPRINT_SPEED );
 	m_fIsSprinting = true;
