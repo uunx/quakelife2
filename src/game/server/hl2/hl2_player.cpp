@@ -78,7 +78,8 @@ ConVar sv_autojump( "sv_autojump", "0" );
 ConVar hl2_walkspeed( "hl2_walkspeed", "150" );
 
 //zeus: changed this from 190 to 220 -  6/15/12
-ConVar hl2_normspeed( "hl2_normspeed", "220" );
+//zeus: reverted change 6/16
+ConVar hl2_normspeed( "hl2_normspeed", "190" );
 
 ConVar hl2_sprintspeed( "hl2_sprintspeed", "320" );
 
@@ -88,7 +89,8 @@ ConVar hl2_darkness_flashlight_factor ( "hl2_darkness_flashlight_factor", "1" );
 	#define	HL2_WALK_SPEED 150
 
 	//zeus: changed this from 190 to 220 - 6/15/12
-	#define	HL2_NORM_SPEED 220
+	//zeus: reverted change 6/16
+	#define	HL2_NORM_SPEED 190
 
 	#define	HL2_SPRINT_SPEED 320
 #else

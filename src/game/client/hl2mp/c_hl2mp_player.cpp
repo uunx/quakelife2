@@ -67,7 +67,8 @@ END_PREDICTION_DATA()
 #define	HL2_WALK_SPEED 150
 
 //zeus: changed from 190 to 220 - 6/15/12
-#define	HL2_NORM_SPEED 220
+//zeus: reverted change 6/16
+#define	HL2_NORM_SPEED 190
 
 #define	HL2_SPRINT_SPEED 320
 
