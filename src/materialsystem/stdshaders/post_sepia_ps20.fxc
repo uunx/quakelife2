@@ -1,0 +1,13 @@
+#include "common_ps_fxc.h"
+
+sampler BaseTextureSampler : register ( s0 );
+
+HALF4 main(float2 iTexCoord : TEXCOORD0) : COLOR{
+float4 vWeightsBW=float4(0.3,0.59,0.11,0);
+float4 vWeightsSepia=float4(0.9,0.7,0.3,1);
+
+float4 cColor=tex2D(BaseTextureSampler,iTexCoord);
+float4 cTempColor=dot(cColor,vWeightsBW); 
+
+return dot(cTempColor,vWeightsSepia);
+}

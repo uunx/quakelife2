@@ -1,0 +1,18 @@
+default:  fxctmp9_tmp\Post_sepia_ps20.inc shaders\fxc\Post_sepia_ps20.vcs fxctmp9_tmp\Post_screenspaceeffect_vs20.inc shaders\fxc\Post_screenspaceeffect_vs20.vcs
+
+fxctmp9_tmp\Post_sepia_ps20.inc shaders\fxc\Post_sepia_ps20.vcs: Post_sepia_ps20.fxc common_fxc.h common_hlsl_cpp_consts.h common_pragmas.h common_ps_fxc.h
+	perl ..\..\devtools\bin\fxc_prep.pl   -source "..\.." Post_sepia_ps20.fxc-----Post_sepia_ps20
+	echo Post_sepia_ps20.fxc>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_ps_fxc.h>> filestocopy.txt
+
+fxctmp9_tmp\Post_screenspaceeffect_vs20.inc shaders\fxc\Post_screenspaceeffect_vs20.vcs: Post_screenspaceeffect_vs20.fxc common_fxc.h common_hlsl_cpp_consts.h common_pragmas.h common_vs_fxc.h
+	perl ..\..\devtools\bin\fxc_prep.pl   -source "..\.." Post_screenspaceeffect_vs20.fxc-----Post_screenspaceeffect_vs20
+	echo Post_screenspaceeffect_vs20.fxc>> filestocopy.txt
+	echo common_fxc.h>> filestocopy.txt
+	echo common_hlsl_cpp_consts.h>> filestocopy.txt
+	echo common_pragmas.h>> filestocopy.txt
+	echo common_vs_fxc.h>> filestocopy.txt
+
