@@ -64,7 +64,7 @@ packages/
 mapsrc/
 *.bat
 _UpgradeReport_Files
-filestocopy
+*filestocopy*
 src/materialsystem/stdshaders/SDK_*
 src/materialsystem/stdshaders/vshtmp9/SDK_*
 src/materialsystem/stdshaders/shaders/fxc/sdk_*
