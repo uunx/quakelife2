@@ -1916,6 +1916,43 @@ void DoEnginePostProcessing( int x, int y, int w, int h, bool bFlashlightIsOn, b
 		}
 	}
 
+	//zeus:post processing shader
+	static ConVar post_sepia("post_sepia", "0", 0, "Enable/Disable Sepia shader");
+	static ConVar tron_style("tron_style", "0", 0, "Enable/Disable Tron_style shader");
+
+	if ( (post_sepia.GetInt() == 0) && (tron_style.GetInt() == 0) ) //no active effects, bail out
+	  return;
+ 
+	IMaterial *pSepiaMat = materials->FindMaterial( "shaders/post_sepia", TEXTURE_GROUP_CLIENT_EFFECTS, true );
+	IMaterial *pTronMat = materials->FindMaterial( "shaders/tron_style", TEXTURE_GROUP_CLIENT_EFFECTS, true );
+  
+	if ( g_pMaterialSystemHardwareConfig->GetDXSupportLevel() >= 80 )
+	{
+ 
+	  if ( (post_sepia.GetInt() == 1) && pSepiaMat )
+	  {
+				DrawScreenEffectMaterial( pSepiaMat, x, y, w, h );
+	  }
+
+	  else if ( (tron_style.GetInt() == 1) && pTronMat )
+	  {
+				DrawScreenEffectMaterial( pTronMat, x, y, w, h );
+	  }
+	}
+
+	/*
+	if ( (tron_style.GetInt() == 0) ) //no active effects, bail out
+	  return;	
+  
+	if ( g_pMaterialSystemHardwareConfig->GetDXSupportLevel() >= 80 )
+	{
+ 
+	  if ( (tron_style.GetInt() == 1) && pTronMat )
+	  {
+				DrawScreenEffectMaterial( pTronMat, x, y, w, h );
+	  }
+	}
+	*/
 #if defined( _X360 )
 	pRenderContext->PopVertexShaderGPRAllocation();
 #endif

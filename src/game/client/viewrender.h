@@ -495,4 +495,6 @@ private:
 	float			m_flFreezeFrameUntil;
 };
 
+
+
 #endif // VIEWRENDER_H

@@ -1549,6 +1549,8 @@
       <Filter>Tool Framework</Filter>
     </ClCompile>
     <ClCompile Include="rotating_health_kit.cpp" />
+    <ClCompile Include="ShaderEditor\SEdit_ModelRender.cpp" />
+    <ClCompile Include="ShaderEditor\ShaderEditorSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="achievement_notification_panel.h">
@@ -3345,6 +3347,10 @@
     <ClInclude Include="game_controls\vguitextwindow.h">
       <Filter>game_controls Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ShaderEditor\ISEdit_ModelRender.h" />
+    <ClInclude Include="ShaderEditor\ShaderEditorSystem.h" />
+    <ClInclude Include="ShaderEditor\IVShaderEditor.h" />
+    <ClInclude Include="ShaderEditor\SEdit_ModelRender.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\lib\public\bitmap.lib">

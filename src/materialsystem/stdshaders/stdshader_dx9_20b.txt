@@ -7,6 +7,14 @@
 //	    _vs20.vcs
 //
 
+
+//mod shit!
+Post_sepia_ps20.fxc
+Post_screenspaceeffect_vs20.fxc
+Tron_style_ps20.fxc
+Tron_style_vs20.fxc
+
+
 SDK_aftershock_ps2x.fxc
 SDK_aftershock_vs20.fxc
 

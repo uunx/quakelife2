@@ -1,2 +1,0 @@
-Post_sepia_ps20.fxc
-Post_screenspaceeffect_vs20.fxc
